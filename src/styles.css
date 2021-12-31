@@ -1,4 +1,72 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+.body{
+  margin: 0px;
+}
+.login-bg{
+  background-color: #FEFEFE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.login-header{
+  color: rgb(13, 32, 13);
+  display: flex;
+  justify-content: center;
+}
+
+.login-button{
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  display: block;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.forgot-button{
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.app{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10vh 0vw;
+  background-color: #FD957A;
+}
+
+.main-bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgb(0,35,36);
+  background: linear-gradient(149deg, rgba(0,35,36,1) 16%, rgba(9,89,121,1) 61%, rgba(130,0,255,1) 100%);  padding: 8px;
+  width: 70vw;
+  height: 70vh;
+}
+
+.button-container {
+  position: relative;
+}
+
+.button-container input {
+  background-color:  transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 20vw;
+  margin: 10px;
+}
+
+.main-header{
+  color: black;
+  margin: 10px;
 }
