@@ -1,4 +1,45 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+body {
+  font-family: sans-serif;
+}
+
+#items-list {
+  padding: 5px;
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.item-div {
+  margin: 5px;
+  padding: 5px;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.picture-div {
+  margin: 5px;
+  padding: 5px;
+  width: auto;
+  height: auto;
+  background-color: green;
+}
+
+.text-div {
+  padding: 5px;
+  background-color: red;
+  width: auto;
+  height: auto;
+}
+
+img {
+  width: 100px;
 }
